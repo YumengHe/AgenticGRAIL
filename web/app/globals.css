@@ -296,6 +296,37 @@ h1 span {
   color: #9ba9af;
   margin: 0;
 }
+.brief {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  gap: 28px;
+  border-top: 1px solid #303d43;
+  border-bottom: 1px solid #303d43;
+  padding: 22px 0 24px;
+  margin-bottom: 30px;
+}
+.brief-label .eyebrow {
+  margin-bottom: 7px;
+}
+.brief-label span {
+  display: block;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #8f9fa5;
+  letter-spacing: 0.04em;
+}
+.brief-text {
+  margin: 0;
+  padding: 2px 0 2px 18px;
+  border-left: 2px solid #4f7a6c;
+}
+.brief-text p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.95;
+  color: #b0bec3;
+  max-width: 62em;
+}
 .workspace {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 320px;
@@ -735,6 +766,15 @@ h1 span {
 @media (max-width: 800px) {
   .studio {
     padding: 0 18px;
+  }
+  .brief {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 18px 0 20px;
+    margin-bottom: 22px;
+  }
+  .brief-text p {
+    font-size: 13px;
   }
   .topbar {
     min-height: 80px;

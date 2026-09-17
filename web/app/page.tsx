@@ -90,6 +90,20 @@ export default function Home() {
           从角色重建到最终成片的制作档案。
         </p>
       </section>
+      <section className="brief" aria-labelledby="brief-title">
+        <div className="brief-label">
+          <p className="eyebrow" id="brief-title">
+            ORIGINAL BRIEF
+          </p>
+          <span>发给 GPT 的原始需求 · 项目由此开始</span>
+        </div>
+        <blockquote className="brief-text">
+          <p>
+            你可以在当前repo里工作并保存任何内容，里面只有一个meshy的api
+            key。我想要最后有一个视频，这个视频是一个3D角色在打太极，这个3D角色可以稍微卡通，女性，衣服和裤子都是黑色为主，带了一些银色配饰，头发也是黑色的。你需要利用meshy重建角色，然后生成skeleton，然后通过控制skeleton去操控角色。你也可以选择先生成一段视频，然后再去match这一段视频。你最后需要用blender去渲染整个视频，最好还可以有一个网页可以让我看见整个项目的输出以及log，你每一步都是怎么做的
+          </p>
+        </blockquote>
+      </section>
       {error && (
         <p role="alert" className="error">
           {error}。请刷新重试。
