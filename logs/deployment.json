@@ -1,0 +1,11 @@
+{
+  "status": "succeeded",
+  "url": "https://taichi-silver-motion.true-petal-6044.chatgpt.site",
+  "access": "owner-only",
+  "published_at_utc": "2026-09-17T22:38:18.947595+00:00",
+  "project_id": "appgprj_6aac60e6b52c8191bbdcfb1b3bbcd540",
+  "version_id": "appgprj_6aac60e6b52c8191bbdcfb1b3bbcd540~appgver_25f4e431885081918b4e934e506d1bc7",
+  "deployment_id": "appgdep_6aac6bc8b54c8191b888502e4afd94dc",
+  "commit_sha": "830061ca545bdbeafc13723d50d8eda3ff774bac",
+  "notes": "The validated build was published privately. Buffered HTTP/1.1 and non-thin, staged Git transfers resolved the initial 500/502 upload errors. API key and signed Meshy URLs were excluded."
+}

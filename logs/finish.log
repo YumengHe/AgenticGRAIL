@@ -1,0 +1,25 @@
+Synced 48 events and 4 artifacts
+Synced 49 events and 4 artifacts
+Synced 50 events and 4 artifacts
+Synced 51 events and 4 artifacts
+Synced 52 events and 4 artifacts
+Synced 53 events and 4 artifacts
+Synced 54 events and 4 artifacts
+Synced 55 events and 4 artifacts
+Synced 56 events and 4 artifacts
+Synced 57 events and 4 artifacts
+Synced 58 events and 4 artifacts
+Synced 59 events and 4 artifacts
+Synced 60 events and 4 artifacts
+Synced 61 events and 4 artifacts
+Traceback (most recent call last):
+  File "C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\scripts\encode_video.py", line 6, in <module>
+    ff=imageio_ffmpeg.get_ffmpeg_exe();out=R/'output';frames=sorted((out/'frames').glob('*.png'))
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'imageio_ffmpeg' has no attribute 'get_ffmpeg_exe'
+Traceback (most recent call last):
+  File "C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\scripts\finish_when_rendered.py", line 12, in <module>
+    subprocess.run([sys.executable,str(R/'scripts/encode_video.py')],check=True,cwd=R)
+  File "C:\Users\envora\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\envora\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe', 'C:\\Users\\envora\\Desktop\\Yumeng\\AgenticGRAIL\\scripts\\encode_video.py']' returned non-zero exit status 1.

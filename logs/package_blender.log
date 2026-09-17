@@ -1,0 +1,7 @@
+00:01.781  blend            | Read blend: "C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\output\taichi_scene.blend"
+00:02.531  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_49612_1665897f50ef6c8531f1043095878b15.png.png"
+Info: Saved as "taichi_scene_portable.blend"
+Portable archive bytes: 9844044
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

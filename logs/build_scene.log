@@ -1,0 +1,63 @@
+Extensions: writing cache failed ([WinError 5] Access is denied: 'C:\\Users\\envora\\AppData\\Roaming\\Blender Foundation').
+15:03:47 | INFO: Data are loaded, start creating Blender stuff
+15:03:47 | INFO: Blender create Mesh node char1
+15:03:47 | INFO: glTF import finished in 0.17s
+{"time": "2026-09-17T22:03:49.142291+00:00", "stage": "06_blender", "event": "motion_baked", "status": "IN_PROGRESS", "progress": 15, "bones": 24, "frames": 432, "source_frames": [1.6000001430511475, 240.80001831054688], "duration": 18, "correction": "Two ankle targets with 2-bone IK and world-space shoe orientation"}
+C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\scripts\build_scene.py:69: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if mat.use_nodes:
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+15:03:50 | INFO: Starting glTF 2.0 export
+15:03:50 | INFO: Extracting primitive: char1
+15:03:51 | INFO: Primitives created: 1
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | WARNING: Baking animation because of unsupported constraints acting on the bone
+15:03:51 | INFO: Finished glTF 2.0 export in 1.5608744621276855 s
+C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\scripts\build_scene.py:11: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\scripts\build_scene.py:96: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Studio atmosphere');s.world=world;world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.17,.21,.25,1);world.node_tree.nodes['Background'].inputs[1].default_value=.35
+00:06.219  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:06.360  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_19060_6dfa807de4feb28878c787a24fbfd303.png.png"
+
+Info: No new files have been packed
+Info: Saved as "taichi_scene.blend"
+{"time": "2026-09-17T22:03:52.104574+00:00", "stage": "06_blender", "event": "scene_saved", "status": "IN_PROGRESS", "progress": 25, "bones": 24, "vertices": 39069, "faces": 45830, "frames": 432, "fps": 24, "duration": 18, "engine": "Cycles / OptiX", "samples": 48, "resolution": [1920, 1080], "source": "Meshy generated and retargeted skeletal motion", "action": "TAICHI_CloudHands_18s_Baked"}
+00:06.516  cycles           | WARNING Could not create directory: "C:\Users\envora\AppData\Local/NVIDIA/OptixCache" Storing optix7cache.db in the current working directory.
+00:07.531  render           | Saved: 'C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\output\qa_0001.png'
+00:07.641  cycles           | WARNING Could not create directory: "C:\Users\envora\AppData\Local/NVIDIA/OptixCache" Storing optix7cache.db in the current working directory.
+00:08.578  render           | Saved: 'C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\output\qa_0086.png'
+00:08.688  cycles           | WARNING Could not create directory: "C:\Users\envora\AppData\Local/NVIDIA/OptixCache" Storing optix7cache.db in the current working directory.
+00:09.610  render           | Saved: 'C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\output\qa_0172.png'
+00:09.735  cycles           | WARNING Could not create directory: "C:\Users\envora\AppData\Local/NVIDIA/OptixCache" Storing optix7cache.db in the current working directory.
+00:10.703  render           | Saved: 'C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\output\qa_0258.png'
+00:10.813  cycles           | WARNING Could not create directory: "C:\Users\envora\AppData\Local/NVIDIA/OptixCache" Storing optix7cache.db in the current working directory.
+00:11.781  render           | Saved: 'C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\output\qa_0344.png'
+00:11.906  cycles           | WARNING Could not create directory: "C:\Users\envora\AppData\Local/NVIDIA/OptixCache" Storing optix7cache.db in the current working directory.
+00:12.813  render           | Saved: 'C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\output\qa_0432.png'
+{"time": "2026-09-17T22:03:58.562673+00:00", "stage": "06_blender", "event": "preview_frames_rendered", "status": "IN_PROGRESS", "progress": 30}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

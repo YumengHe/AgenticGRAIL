@@ -1,0 +1,34 @@
+00:01.328  blend            | Read blend: "C:\Users\envora\Desktop\Yumeng\AgenticGRAIL\output\taichi_scene.blend"
+{
+  "sampled_frames": 72,
+  "ankle_max_drift_meters": {
+    "Left": 5.149531720765672e-07,
+    "Right": 3.434547952299151e-07
+  },
+  "ankle_height_range_meters": {
+    "Left": [
+      0.11647669970989227,
+      0.11647728830575943
+    ],
+    "Right": [
+      0.11698736995458603,
+      0.11698787659406662
+    ]
+  },
+  "camera_bounds_normalized": {
+    "x": [
+      0.37109947204589844,
+      0.6072880625724792
+    ],
+    "y": [
+      0.05822616070508957,
+      0.8674349188804626
+    ]
+  },
+  "correction": "Two-bone IK with planted ankle controls; fixed world-space shoe orientations",
+  "visual_qa": "Six preview frames inspected after correction; hands and feet remain in camera view",
+  "limitations": "AI generated Tai Chi-inspired motion; 24-bone body rig without individual finger joints, simplified skin deformation."
+}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

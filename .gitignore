@@ -1,0 +1,23 @@
+# secrets and local state
+.env
+.env.*
+!.env.example
+logs/private/
+*.db
+*.db-*
+
+# python / node
+__pycache__/
+node_modules/
+tools/python/
+
+# heavy or regenerable render artifacts
+output/frames/
+*.blend1
+*.zip
+*.tar.gz
+# ...but the site needs this download bundle
+!web/public/media/blender_portable.zip
+
+# Blender thumbnail junk
+.thumbnails/

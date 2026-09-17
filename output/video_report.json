@@ -1,0 +1,11 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 24.0,
+  "duration": 18.0,
+  "frames": 432,
+  "codec": "h264",
+  "bytes": 2959143,
+  "validation": "All 432 frames decoded successfully; no FFmpeg errors",
+  "audio": false
+}

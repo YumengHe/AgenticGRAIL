@@ -1,0 +1,16 @@
+{
+  "bones": 24,
+  "vertices": 39069,
+  "faces": 45830,
+  "frames": 432,
+  "fps": 24,
+  "duration": 18,
+  "engine": "Cycles / OptiX",
+  "samples": 48,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "source": "Meshy generated and retargeted skeletal motion",
+  "action": "TAICHI_CloudHands_18s_Baked"
+}
